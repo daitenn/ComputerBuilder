@@ -1,0 +1,114 @@
+<!DOCTYPE <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Computer Builder</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+
+  <!--bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+  <div class="text-center bg-dark text-light text-font col-12">Build Your Own Computer</div>
+  <div class="p-2 flex-nowrap" id="target">
+
+    <div class="step">
+      <h4 class="step-num">step1: Select Your CPU</h4>
+      <div class="d-flex justify-content-start p-2">
+        <h4>Brand</h4>
+        <select id="cpu-Brand" class="col-3 mx-3">
+          <option value="">-</option>
+        </select>
+        <h4>Model</h4>
+        <select id="cpu-Model" class="mx-3 col-3">
+          <option value="">-</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="step">
+      <h4 class="step-num">step2: Select Your GPU</h4>
+      <div class="d-flex justify-content-start p-2">
+        <h4>Brand</h4>
+        <select id="gpu-Brand" class="col-3 mx-3">
+          <option value="">-</option>
+        </select>
+        <h4>Model</h4>
+        <select id="gpu-Model" class="mx-3 col-3">
+          <option value="">-</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="step">
+      <h4 class="step-num">step3: Select Your Money Card</h4>
+      <div class="d-flex justify-content-start p-2">
+        <h4>How many?</h4>
+        <select id="ram-Quantity" class="col-2 mx-3">
+          <option value="">-</option>
+          <option value="1x">1</option>
+          <option value="2x">2</option>
+          <option value="4x">4</option>
+          <option value="8x">8</option>
+        </select>
+        <h4>Brand</h4>
+        <select id="ram-Brand" class="col-3 mx-3">
+          <option value="">-</option>
+        </select>
+        <h4>Model</h4>
+        <select id="ram-Model" class="mx-3 col-3">
+          <option value="">-</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="step">
+      <h4>step4: Select Your Storage</h4>
+      <div class="d-flex p-2">
+        <h4 class="mr-2">HDD or SSD</h4>
+        <select id="storage-type" class="col-1">
+          <option value="">-</option>
+          <option value="hdd">HDD</option>
+          <option value="ssd">SSD</option>
+        </select>
+        <h4 class="mx-2">Storage</h4>
+        <select id="storage-size" class="col-1">
+          <option value="">-</option>
+        </select>
+        <h4 class="mx-2">Brand</h4>
+        <select id="storage-Brand" class="col-3 mx-3">
+          <option value="">-</option>
+        </select>
+        <h4 class="mx-2">Model</h4>
+        <select id="storage-Model" class="mx-3 col-3">
+          <option value="">-</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center py-5">
+      <div class="button_solid002" id="add">
+        <button class="btn btn-primary">Add</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="main.js" async defer></script>
+</body>
+
+</html>>
